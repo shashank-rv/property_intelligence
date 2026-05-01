@@ -16,6 +16,16 @@ An engaging Australia-first address intelligence app inspired by realestate-styl
 
 ## Run locally
 
+### Prerequisites (WSL)
+- Python 3.11+
+- Node.js 20+ (required for Vite 5)
+
+If you use `nvm` in WSL:
+```bash
+nvm install 20
+nvm use 20
+```
+
 ### 1) Backend
 ```bash
 cd backend
@@ -28,6 +38,7 @@ Backend: `http://localhost:5000`
 
 ### 2) Frontend
 ```bash
+nvm use 20
 cd frontend
 npm install
 npm run dev
